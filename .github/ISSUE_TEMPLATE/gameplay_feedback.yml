@@ -1,0 +1,31 @@
+name: Gameplay Feedback
+description: Capture feel, balance, playability, and playtest observations.
+title: "[Gameplay] "
+labels: ["type:gameplay", "type:qa"]
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Build or branch tested
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What mode, level, mechanic, or scenario was tested?
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: What felt good, confusing, too easy, too hard, slow, broken, or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested direction
+    validations:
+      required: false

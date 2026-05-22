@@ -1,0 +1,33 @@
+name: Idea Pitch
+description: Propose a serious product, tool, experiment, or game idea.
+title: "[Idea] "
+labels: ["type:idea", "status:needs-spec"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What should exist, improve, or be explored?
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Audience
+      description: Who is this for?
+    validations:
+      required: true
+  - type: textarea
+    id: shape
+    attributes:
+      label: Possible shape
+      description: What could the first useful version look like?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and unknowns
+      description: What do we need to prove before committing?
+    validations:
+      required: false

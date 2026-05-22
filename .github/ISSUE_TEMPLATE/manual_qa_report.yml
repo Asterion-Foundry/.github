@@ -1,0 +1,44 @@
+name: Manual QA Report
+description: Record a manual testing pass, exploratory session, or release check.
+title: "[QA] "
+labels: ["type:qa", "status:needs-test"]
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Build or branch tested
+      placeholder: "main, feature branch, release tag, commit SHA, or build number"
+    validations:
+      required: true
+  - type: textarea
+    id: coverage
+    attributes:
+      label: Areas tested
+      description: What screens, flows, mechanics, devices, or environments were covered?
+    validations:
+      required: true
+  - type: textarea
+    id: passed
+    attributes:
+      label: Passed checks
+    validations:
+      required: false
+  - type: textarea
+    id: failed
+    attributes:
+      label: Failed checks
+      description: Link separate bug issues when possible.
+    validations:
+      required: false
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Blockers
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes and evidence
+    validations:
+      required: false
