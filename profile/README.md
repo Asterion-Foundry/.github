@@ -1,26 +1,31 @@
-# We build software, tools, and games with intent.
+# Asterion Foundry
 
-This organization is a small independent software and game development collective.
+We are a small group of friends building software, tools, experiments, and eventually games under one roof.
 
-We use it for serious ideas: products, tools, prototypes, game systems, and long-term projects that deserve a shared home.
+This is where we put the ideas we actually care about. Some of them will become products. Some will stay as prototypes. Some will turn into games. The point is to give our serious work a place where it can grow properly instead of getting lost in chat or random folders.
 
-## What We Build
+## What Lives Here
 
-- Software products and internal tools
-- Technical experiments and prototypes
-- Game mechanics, systems, and playable builds
-- Research notes, specs, and decisions
+- apps, tools, and web projects
+- prototypes and technical experiments
+- game ideas, mechanics, and playtest builds
+- project notes, specs, and decisions
+- QA reports, bug reports, and release checklists
 
-## How We Work
+## How We Want To Work
 
-- Ideas start as written proposals.
-- Prototypes prove the core risk before full development.
-- Active projects use issues, pull requests, reviews, and testing.
-- Manual QA is part of the build loop, not a last-minute pass.
-- Public repos should represent work we are willing to stand behind.
+We want this org to feel serious without pretending to be bigger than it is.
 
-## Standards
+That means:
 
-We care about clear engineering, thoughtful design, durable documentation, and a testing process that catches real user problems.
+- write ideas down before building too far
+- keep experiments separate from real projects
+- use issues and pull requests when work matters
+- test things manually before calling them done
+- make public work something we are willing to stand behind
 
-Private work stays private until it is ready. Public work should feel complete.
+Most of our work starts private. When something becomes public, it should feel intentional.
+
+## The Long Game
+
+Asterion Foundry is for the things we want to keep improving over time: useful software, original games, shared tools, and the kind of projects that deserve better than being treated like throwaway experiments.
